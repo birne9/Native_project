@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container>div{
+    width: 100px;
+    height: 650px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition-property:'width';
+
+    transition-duration: 2s;
+}
+.active{
+    width: 700px    !important;
+}
+
+
+
